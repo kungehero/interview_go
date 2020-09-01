@@ -13,3 +13,4 @@
 - string 字符串使用 （bytes.buffer  预分配足够大内存）
 - defer 读取文件或者数据库，关闭连接
 - pprof 观察cpu使用率，trace 内存使用情况（优化工具）
+- chan leak 协程阻塞，内存泄漏
