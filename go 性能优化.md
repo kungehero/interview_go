@@ -7,6 +7,21 @@
 
 {雨痕10篇性能优化文章}[https://segmentfault.com/blog/qyuhen]
 
+- 小对象合并成结构体一次分配，减少内存分配次数
+```
+var a int 
+var b string
+
+type param struct{
+   a int
+   b string
+}
+```
+-  缓存区内容一次分配足够大小空间，并适当复用
+```
+
+```
+
 ## 个人总结
 
 - map，array 预分配内存（防止申请堆内存分配，直接从栈内的申请）
