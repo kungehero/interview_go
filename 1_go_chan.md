@@ -1,5 +1,4 @@
-# channel 
-【Concurrency In Go】https://github.com/arpitjindal97/technology_books/blob/master/Golang/Concurrency-in-Go:Tools-and-Techniques-for-Developers.pdf
+# channel 源码分析及使用总结
 
 【Go 语言高级编程开源书】https://chai2010.cn/advanced-go-programming-book/ch1-basic/ch1-05-mem.html
 
